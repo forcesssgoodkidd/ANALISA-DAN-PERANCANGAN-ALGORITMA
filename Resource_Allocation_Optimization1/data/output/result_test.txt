@@ -1,0 +1,9 @@
+HASIL SIMULASI RESOURCE ALLOCATION
+=================================
+
+Task 10 → GPU | Energy: 1.25
+Task 20 → GPU | Energy: 2.10
+Task 5  → CPU | Energy: 0.80
+
+Waktu Eksekusi : 0.002341 detik
+Memori Digunakan: 45 KB

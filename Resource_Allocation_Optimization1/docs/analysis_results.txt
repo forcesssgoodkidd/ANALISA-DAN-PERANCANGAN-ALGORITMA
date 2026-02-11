@@ -1,0 +1,75 @@
+ANALYSIS RESULTS
+Resource Allocation Optimization untuk Efisiensi Energi
+======================================================
+
+1. Deskripsi Pengujian
+---------------------
+Pengujian dilakukan untuk menganalisis performa algoritma resource allocation
+dalam memilih CPU atau GPU berdasarkan efisiensi energi. Pengujian meliputi
+pengukuran waktu eksekusi, penggunaan memori, dan distribusi energi.
+
+2. Lingkungan Pengujian
+----------------------
+Bahasa Pemrograman : Python 3
+GUI                : Tkinter
+Visualisasi        : Matplotlib
+Perangkat Uji      : Laptop / PC
+Metode Analisis    : time.time(), tracemalloc
+
+3. Skenario Pengujian
+--------------------
+a. Best Case
+   - Jumlah task sedikit
+   - Beban kerja kecil
+   - Contoh input: 5,10,15
+
+b. Average Case
+   - Jumlah task sedang
+   - Beban kerja bervariasi
+   - Contoh input: 10,20,30,40
+
+c. Worst Case
+   - Jumlah task besar
+   - Beban kerja tinggi
+   - Contoh input: 100,200,300,400,500
+
+d. Edge Case
+   - Task minimum
+   - Contoh input: 1
+
+e. Boundary Case
+   - Task mendekati batas maksimum yang diuji
+   - Contoh input: 1000
+
+4. Hasil Pengujian
+-----------------
+Dari hasil simulasi diperoleh:
+- Algoritma mampu mengalokasikan task ke CPU dan GPU
+- Total energi CPU dan GPU dapat dibandingkan secara visual
+- Waktu eksekusi sangat kecil untuk data berukuran kecil
+- Penggunaan memori relatif rendah dan stabil
+
+5. Analisis Kompleksitas
+-----------------------
+- Kompleksitas Waktu   : O(n)
+  di mana n adalah jumlah task
+- Kompleksitas Ruang   : O(n)
+  karena menyimpan hasil alokasi setiap task
+
+Pengujian empiris menunjukkan bahwa waktu eksekusi meningkat secara linear
+seiring bertambahnya jumlah task.
+
+6. Visualisasi
+--------------
+Grafik batang CPU vs GPU digunakan untuk menunjukkan perbandingan total energi.
+Grafik ini mempermudah analisis efisiensi resource secara visual.
+
+7. Kesimpulan
+-------------
+Algoritma resource allocation yang diimplementasikan mampu mensimulasikan
+proses pemilihan resource pada sistem komputasi modern dengan fokus efisiensi
+energi. Program ini sesuai digunakan sebagai media pembelajaran algoritma
+scheduling dan resource allocation.
+
+======================================================
+END OF ANALYSIS
